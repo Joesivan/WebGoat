@@ -7,10 +7,7 @@
     <artifactId>webgoat-parent</artifactId>
     <packaging>pom</packaging>
     <version>8.2.3-SNAPSHOT</version>
-<properties>
-  <sonar.organization>joesivan</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
+    
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -115,6 +112,9 @@
     </issueManagement>
 
     <properties>
+          <sonar.organization>joesivan</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        
         <!-- Use UTF-8 Encoding -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
