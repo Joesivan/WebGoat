@@ -7,7 +7,10 @@
     <artifactId>webgoat-parent</artifactId>
     <packaging>pom</packaging>
     <version>8.2.3-SNAPSHOT</version>
-
+<properties>
+  <sonar.organization>joesivan</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
